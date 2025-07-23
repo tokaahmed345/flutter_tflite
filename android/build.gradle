@@ -23,8 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
-    namespace 'com.example.tflite'
-
+  namespace 'sq.flutter.tflite'
     defaultConfig {
         minSdkVersion 19
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
